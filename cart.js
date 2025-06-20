@@ -92,3 +92,14 @@ window.addEventListener("load", () => {
 
     updateCartBadgeFromScope();
 });
+
+    updateCartBadgeFromScope();
+});
+
+// ✅ 将函数挂载到 window，方便控制台访问调试
+window.getCart = getCart;
+window.setCart = setCart;
+window.clearCart = clearCart;
+window.renderCart = renderCart;
+
+
