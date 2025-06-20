@@ -1,6 +1,6 @@
 {
-  "name": "Cart Extension",
-  "description": "Scoped shopping cart per chat file",
-  "version": "1.0",
-  "scripts": ["cart.js"]
+  "name": "cart",
+  "description": "Scoped shopping cart per chat",
+  "version": "1.0.0",
+  "main": "cart.js"
 }
